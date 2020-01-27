@@ -1,0 +1,12 @@
+.form {
+  float: left;
+}
+
+#answer {
+  margin-left: 10px;
+}
+
+input[type='text'] {
+  text-align: center;
+  width: 45px;
+}
