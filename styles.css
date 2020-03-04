@@ -1,2 +1,14 @@
+body{
+  background: linear-gradient(to right, rgb(33, 33, 221), rgb(14, 168, 14))
+  
+}
+h1{
+  text-align: center;
+}
 
-
+section{
+ text-align: center; 
+ height: 50px
+ 
+ 
+}
