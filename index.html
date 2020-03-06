@@ -2,42 +2,26 @@
 
 <head>
   <script src="script.js"></script>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-  <link rel="stylesheet" href="styles.css" />
   <h1>Web Calculator</h1>
-  <section>
+  <div class="form">
     <input type="text" id="num1" />
-    +
+
+
+    <select id="operator">
+      <option value="add">+</option>
+      <option value="subtract">-</option>
+      <option value="multiply">*</option>
+      <option value="divide">/</option>
+    </select>
+
     <input type="text" id="num2" />
-    <button onclick="sum1()">=</button>
-    <div id="output1">
-  </section>
-
-  <section>
-    <input type="text" id="num3" />
-    -
-    <input type="text" id="num4" />
-    <button onclick="sum2()">=</button>
-    <div id="output2">
-  </section>
-
-  <section>
-    <input type="text" id="num5" />
-    *
-    <input type="text" id="num6" />
-    <button onclick="sum3()">=</button>
-    <div id="output3">
-  </section>
-
-  <section>
-    <input type="text" id="num7" />
-    /
-    <input type="text" id="num8" />
-    <button onclick="sum4()">=</button>
-    <div id="output4">
-  </section>
+    <input type="button" value="=" onclick="calculate()" />
+    </form>
+    <span id="answer"></span>
 
 </body>
 
